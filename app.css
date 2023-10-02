@@ -1,0 +1,93 @@
+
+body{
+    background-color: aliceblue;
+    display: flex;
+    margin: 50px 50px 0px 50px;
+    flex-direction: column;
+    min-height: 95vh;
+}
+
+
+.main{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(4, 4, 46);
+}
+ h1{
+        font-weight: 900;
+        font-style: normal;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: rgb(62, 62, 116);
+        font-size: 5rem;
+        text-align: center;
+   
+    }
+    h3{
+      color: rgb(211, 204, 199);
+    }
+
+   
+   .creative{
+    color: rgb(156, 80, 30);
+   }
+   @media( max-width:600px){
+    h3{
+        width: 100px;
+        color: rgb(50, 50, 110);
+    }
+    body{
+        background-color: rgb(223, 215, 215)
+    }
+   }
+   
+   
+   .card{
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: justify;
+
+   }
+  .card img{
+    margin-bottom: 10px;
+     width:25%;
+    border-radius: 20px;
+    object-fit: cover;
+    display: inline;
+    
+
+   }
+   .card{
+    width: 45%;
+    color: rgb(4, 4, 46);
+    display: block;
+
+   }
+   .image{
+    float: left;
+   }
+   .image-2{
+    float: left;
+   }
+    .left{
+    clear: left; 
+    float: left;
+
+}
+   .right{
+    float: right;
+   }
+   .last{
+    width: 80%;
+    
+
+   } 
+
+
+   footer{
+
+    clear: both;
+    text-align: right;
+    color: midnightblue
+   }
